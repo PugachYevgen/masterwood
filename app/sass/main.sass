@@ -1,0 +1,249 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	input, textarea
+			border: #666 1px solid
+			outline: none
+			&:focus:required:invalid
+				border-color: red
+			&:required:valid
+				border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+/*********** HEADER *********/
+
+header
+  width: 100%
+  height: 30vh
+  background: url(../img/header-bgd.png) no-repeat
+  background-size: 100%
+  nav
+    margin-top: 15vh
+    ul
+      list-style-type: none
+      height: 15vh
+      display: flex
+      justify-content: flex-start
+      align-content: stretch
+
+      li
+        width: 100px
+        text-align: center
+        font-family: kontora_bold
+        font-size: 1.3em
+        color: #fff
+        padding-top: 20px
+        &:hover
+          background-color: $accent
+.logo
+  height: 20vh
+  margin-top: 5vh
+  img
+    height: 100%
+.trolley
+  float: right
+  margin-top: 8vh
+
+/*********** cotegories ***********/
+.content
+  margin-top: 15px
+.cotegories
+  border: 1px solid $second-color
+  margin-top: 15px
+  height: 400px
+  font-size: 1.2em
+  padding-left: 10px
+  padding-right: 10px
+  color: $default-font-color
+  ul
+    padding-left: 0
+    li
+      list-style-type: none
+      margin-bottom: 10px
+      padding-bottom: 5px
+      border-bottom: 1px solid #e1e1e1
+      a
+        color: #434343
+        &:hover
+          text-decoration: none
+        img
+          margin-right: 10px
+
+/*********************** carousel ***************/
+
+.carousel
+  height: 350px
+  margin-top: 15px
+  background-color: #e1e1e1
+#viewport
+  width: 100%
+  height: 100%
+  position: relative
+  overflow-x: hidden
+  user-select: none
+  text-align: center
+  button
+    position: absolute
+    top: 50%
+    &:nth-of-type(1)
+      left: 20px
+    &:nth-of-type(2)
+      right: 20px
+
+#slidewrapper
+  position: relative
+  height: 100%
+  width: calc(100% * 4)
+  transition: 1s
+  transition-timing-function: cubic-bezier(0.67, 0.01, 0.23, 1)
+  margin: 0
+  padding: 0
+  ul, li
+    margin: 0
+    padding: 0
+
+.slide
+  width: calc(100%/4)
+  height: 100%
+  list-style: none
+  float: left
+  position: relative
+  //display: flex
+  //align-items: center
+  //justify-content: flex-end
+  img
+    height: 200px
+    position: absolute
+    top: 50%
+    left: 50px
+    margin-top: -100px
+  .caro_text
+    text-align: left
+    float: right
+    width: 50%
+    height: 270px
+    position: absolute
+    top: 50%
+    right: 10px
+    margin-top: -135px
+    h1
+      font-size: 4em
+      font-weight: lighter
+      font-family: kontora_thin
+    p:nth-of-type(1)
+      color: $default-font-color
+      border-top: 1px solid $default-font-color
+      border-bottom: 1px solid $default-font-color
+      font-size: 2em
+      b
+        color: $prise-color
+        font-family: kontora_thin
+        font-weight: lighter
+        font-size: 1.5em
+        margin-left: 20px
+
+#prev-btn, #next-btn
+  width: 30px
+  height: 30px
+  background-color: $accent
+  border: none
+  color: #fff
+  outline: none
+/************** discount ****************/
+.discount
+  border: 1px solid $second-color
+  margin-top: 15px
+  height: 400px
+  font-size: 1.2em
+  padding-left: 10px
+  padding-right: 10px
+  color: $default-font-color
+.discount-item:first-of-type
+  margin-bottom: 15px
+.discount-item
+  width: 100%
+.discount_img-container
+  width: 102px
+  height: 102px
+  border: 1px solid #e1e1e1
+  position: relative
+  float: left
+  margin-top: 10px
+  img
+    width: 99px
+
+.plywood-img
+  position: absolute
+  top: 50%
+  margin-top: -26px
+    
+.discount-item_text
+  margin-left: 110px
+  p
+    margin-bottom: 0
+    &:nth-of-type(1)
+      text-decoration: line-through
+    &:nth-of-type(2)
+      color: $prise-color
+.massege-block
+  background-color: $accent
+  height: 150px
+  text-align: center
+  color: #ffffff
+  font-size: 2em
+  line-height: 150px
+  margin-top: 15px
+
+
+.comercial
+  height: 400px
+  position: relative
+  width: 100%
+  margin-top: 15px
+  img
+    height: 400px
+    width: 100%
+  p
+    position: absolute
+    top: 10%
+    width: 100%
+    padding-left: 15px
+    color: #ffffff
+    font-size: 4em
+    line-height: 1.3em
+    font-family: kontora
+    letter-spacing: 5px
+    border: 1px solid red
+
+.decor
+  img
+    width: 95%
+  //img:[src*="img1"]
+  //    border: 1px solid red
+
+
+@import "media" // Always at the end
