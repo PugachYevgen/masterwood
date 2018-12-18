@@ -119,7 +119,7 @@ header
   height: 100%
   width: calc(100% * 4)
   transition: 1s
-  transition-timing-function: cubic-bezier(0.67, 0.01, 0.23, 1)
+  transition-timing-function: cubic-bezier(0.67, 0.01, 0.23, 1.5)
   margin: 0
   padding: 0
   ul, li
@@ -237,13 +237,66 @@ header
     line-height: 1.3em
     font-family: kontora
     letter-spacing: 5px
-    border: 1px solid red
+
 
 .decor
+  .col-6:nth-of-type(1)
+    padding-right: 7px
+  .col-6:nth-of-type(2)
+    padding-left: 7px
   img
-    width: 95%
+    width: 100%
   //img:[src*="img1"]
   //    border: 1px solid red
 
+.slider
+
+.frame
+  /**
+   * (optional) wrapper width, specifies width of the slider frame.
+  width: 880px
+  position: relative
+
+  overflow: hidden
+  white-space: nowrap
+
+.slides
+  display: inline-block
+  li
+    position: relative
+    display: inline-block
+    text-align: center
+    background-color: yellowgreen
+    margin-left: 20px
+    width: 220px
+    height: 500px
+    text-align: center
+    margin-left: 20px
+    border: 1px solid red
+  /**
+   * (optional) if the content inside the slide element has a defined size.
+
+
+
+.prev
+  position: absolute
+  top: 50%
+  margin-top: -25px
+  display: block
+  cursor: pointer
+
+.next
+  position: absolute
+  top: 50%
+  margin-top: -25px
+  display: block
+  cursor: pointer
+  right: 0
+
+.prev
+  left: 0
+
+.next svg, .prev svg
+  width: 25px
 
 @import "media" // Always at the end
