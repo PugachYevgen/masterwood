@@ -63,12 +63,33 @@ $(function() {
 //
 });
 
+// $(document).ready(function() {
+//     $('.owl-carousel').owlCarousel({
+//         center: true,
+//         items: 3,
+//         loop: true,
+//         margin: 10,
+//         responsive: {
+//             600: {
+//                 items: 3
+//             }
+//         }
+//     });
+// });
 
-document.addEventListener('DOMContentLoaded', function () {
-    var multiSlides = document.querySelector('.js_multiSlides');
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        center: true,
+        items: 3,
+        loop:true,
+        margin:10,
+        center: true,
+        responsive:{
+            600:{
+                items:3
+            }
+        }
 
-    lory(multiSlides, {
-        infinite: 4,
-        slidesToScroll: 4
     });
+
 });
