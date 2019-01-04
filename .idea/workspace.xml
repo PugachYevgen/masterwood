@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b486d27a-a88c-4930-acfd-16b5619f85b3" name="Default" comment="working owl2.0">
+    <list default="true" id="b486d27a-a88c-4930-acfd-16b5619f85b3" name="Default" comment="final test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ht.access" beforeDir="false" afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/lory/lory.min.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="107" column="64" lean-forward="true" selection-start-line="107" selection-start-column="64" selection-end-line="107" selection-end-column="64" />
+            <state relative-caret-position="187">
+              <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -305,7 +303,7 @@
       <workItem from="1545838379530" duration="3004000" />
       <workItem from="1546530214974" duration="2645000" />
       <workItem from="1546532926851" duration="1462000" />
-      <workItem from="1546535968512" duration="1968000" />
+      <workItem from="1546535968512" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="working lory">
       <created>1545168787193</created>
@@ -328,11 +326,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546532164493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working owl2.0">
+      <created>1546625973198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546625973198</updated>
+    </task>
+    <task id="LOCAL-00005" summary="working owl2.0">
+      <created>1546626280319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546626280319</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73336000" />
+    <option name="totallyTimeSpent" value="73761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="107" column="64" lean-forward="true" selection-start-line="107" selection-start-column="64" selection-end-line="107" selection-end-column="64" />
+        <state relative-caret-position="187">
+          <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
         </state>
       </provider>
     </entry>
